@@ -1,0 +1,22 @@
+
+body {
+    background: whitesmoke;
+    padding: 20px 70px;
+}
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.card p {
+    color: rgb(75, 74, 74);
+}
+.error {
+    color: red;
+    font-weight: bold;
+}
+h1 {
+    color: rgb(31, 31, 237);
+}

@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <h1 > <span style="color: rgb(47, 206, 206) "> 🌤 </span> Weather App <span style="color: rgb(47, 206, 206) "> 🌤 </span> </h1>
+
+  <input type="text" id="city" placeholder="Enter city name" />
+  <button onclick="getWeather()">Get Weather</button>
+
+  <div id="weather-box" style="display: none;">
+    <h2 id="city-name"></h2>
+    <img id="weather-icon" />
+    <p id="temperature"></p>
+    <p id="condition"></p>
+  </div>
+
+  <p id="error-message" class="error"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
